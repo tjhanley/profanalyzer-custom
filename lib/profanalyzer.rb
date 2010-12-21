@@ -101,7 +101,7 @@ require 'yaml'
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 module Profanalyzer
   
-  VERSION = '1.0.1'
+  VERSION = '1.0.2'
   
   @@full_list = YAML::load_file(File.dirname(__FILE__)+"/../config/list.yml")
   @@racist_list = @@full_list.select {|w| w[:racist]}
